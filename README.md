@@ -12,7 +12,7 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
 
 لأي سؤال بكون موجود فالدسكورد: bigshoes
 
-او الايميل: [ahjfr@icloud.com](mailto://ahjfr@icloud.com)
+او الايميل: [ahjfr@icloud.com](mailto:ahjfr@icloud.com)
 
 ## فهرس
 
