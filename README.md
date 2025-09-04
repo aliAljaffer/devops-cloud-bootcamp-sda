@@ -26,13 +26,15 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
 
 ### اسبوع ١ - يوم ٣
 
-الموضوع: Git & GitHub
-الشرح: [devops week1 day3 git and github](https://youtu.be/SuwatQrKlZE)
+**الموضوع**: Git & GitHub
+
+**الشرح**: [devops week1 day3 git and github](https://youtu.be/SuwatQrKlZE)
 
 #### اسبوع ١ - يوم ٤
 
-الموضوع: Linux commands, Azure VMs
-الشرح: [devops week1 day4 linux + azure](https://youtu.be/G-hi9-YCluA)
+**الموضوع**: Linux commands, Azure VMs
+
+**الشرح**: [devops week1 day4 linux + azure](https://youtu.be/G-hi9-YCluA)
 
 ## حلول اللابات
 
