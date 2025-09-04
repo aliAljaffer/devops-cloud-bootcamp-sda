@@ -89,3 +89,41 @@ Group work on Miro
 ![Editing Files with vi / vim](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/editing-files-with-vi-vim.png)
 
 ### حل اسبوع ١ - يوم ٥
+
+#### Lab 1: Working with Web Servers
+
+```bash
+azureuser@server:~$ sudo apt install -y apache2 > /dev/null # install apache2 and do not show the output
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Scanning processes...
+Scanning linux images...
+azureuser@server:~$ sudo systemctl enable apache2 # enable the apache2 service
+Synchronizing state of apache2.service with SysV service script with /usr/lib/systemd/systemd-sysv-install.
+Executing: /usr/lib/systemd/systemd-sysv-install enable apache2
+azureuser@server:~$ sudo systemctl status apache2 # check the status of apache2 to make sure it's enabled
+● apache2.service - The Apache HTTP Server
+     Loaded: loaded (/usr/lib/systemd/system/apache2.service; enabled; preset: >
+     Active: active (running) since Thu 2025-09-04 07:25:52 UTC; 40s ago
+       Docs: https://httpd.apache.org/docs/2.4/
+   Main PID: 4049 (apache2)
+      Tasks: 55 (limit: 9449)
+     Memory: 5.1M (peak: 5.4M)
+        CPU: 38ms
+     CGroup: /system.slice/apache2.service
+             ├─4049 /usr/sbin/apache2 -k start
+             ├─4052 /usr/sbin/apache2 -k start
+             └─4053 /usr/sbin/apache2 -k start
+
+Sep 04 07:25:52 server systemd[1]: Starting apache2.service - The Apache HTTP S>
+Sep 04 07:25:52 server systemd[1]: Started apache2.service - The Apache HTTP Se>
+azureuser@server:~$ echo "<h1>Hi my name is Ali</h1>" | sudo tee /var/www/html/index.html > /dev/null # print the string into the index.html file, then do not display the output
+azureuser@server:~$ curl http://localhost # check if I can reach the web page
+<h1>Hi my name is Ali</h1>
+azureuser@server:~$ echo "Done!"
+Done!
+azureuser@server:~$ _
+```
+
+![Working with Web Servers](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/working-with-web-servers.png)
