@@ -40,6 +40,12 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
 
 **الشرح**: [devops week1 day4 linux + azure](https://youtu.be/G-hi9-YCluA)
 
+#### اسبوع ١ - يوم ٥
+
+**الموضوع**: process vs service vs program, helpful bash stuff, alias
+
+**الشرح**: [devops week1 day5 process vs service vs program, helpful bash stuff, alias](https://youtu.be/K-oZHxQqi20)
+
 ## حلول اللابات
 
 ### حل اسبوع ١ - يوم ١
