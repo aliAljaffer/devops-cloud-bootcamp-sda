@@ -48,39 +48,39 @@ Group work on Miro
 
 ### حل اسبوع ١ - يوم ٣
 
-#### Git Installation and Setup
+#### Lab 1: Git Installation and Setup
 
 ![Git Installation and Setup](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/git-installation-and-setup.png)
 
-#### Git Workflow
+#### Lab 2: Git Workflow
 
 ![Git Workflow](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/git-workflow.png)
 
-#### Git Branches
+#### Lab 3: Branches
 
 ![Git Branches](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/git-branches.png)
 
-#### Collaborating with Remote
+#### Lab 4: Collaborating with Remote
 
 ![Collaborating with Remote](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/collaborating-with-remote.png)
 
 ### حل اسبوع ١ - يوم ٤
 
-#### Setup Linux Machine in Azure Cloud
+#### Lab 1: Setup Linux Machine in Azure Cloud
 
 في الصورة ظاهر اني مسوي كونكت عالـVM وفي الويندو اللي ورا ظاهر انها شغالة تمام, عشان كذا حسيت صورة وحدة كافية
 
 ![Setup Linux Machine in Azure Cloud](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/setup-linux-machine-azure-cloud.png)
 
-#### Basic Navigation Commands in Linux
+#### Lab 12: Basic Navigation Commands in Linux
 
 ![Basic Navigation Commands in Linux](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/basic-navigation-commands-in-linux.png)
 
-#### File Permissions in Linux
+#### Lab 13: File Permissions in Linux
 
 ![File Permissions in Linux](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/file-permissions-in-linux.png)
 
-#### Editing Files with vi / vim
+#### Lab 4: Editing Files with vi / vim
 
 ![Editing Files with vi / vim](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/editing-files-with-vi-vim.png)
 
