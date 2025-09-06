@@ -83,11 +83,11 @@ Group work on Miro
 
 ![Setup Linux Machine in Azure Cloud](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/setup-linux-machine-azure-cloud.png)
 
-#### Lab 12: Basic Navigation Commands in Linux
+#### Lab 2: Basic Navigation Commands in Linux
 
 ![Basic Navigation Commands in Linux](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/basic-navigation-commands-in-linux.png)
 
-#### Lab 13: File Permissions in Linux
+#### Lab 3: File Permissions in Linux
 
 ![File Permissions in Linux](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/file-permissions-in-linux.png)
 
