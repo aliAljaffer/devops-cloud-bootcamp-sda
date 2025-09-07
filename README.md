@@ -228,6 +228,22 @@ ali@ironhack:~/lab3$
 
 #### Lab 4: Log Parsing with Shell Scripting
 
+ملاحظة: عدلت الكود اللي من عنده في هذا اللاين
+
+```bash
+KEYWOARD="ERROR"
+```
+
+وخليته كذا
+
+```bash
+KEYWOARD=$1
+```
+
+كذا يصير بس اعطيه الكلمة اللي يبحث عنها دايركت بدل ما كل مرة اغير الكود
+
+`$1` يعني خذ اول ارقيومنت من الكوماند
+
 ```bash
 ali@ironhack:~$ vim parse_logs.sh
 ali@ironhack:~$ chmod +x parse_logs.sh
@@ -247,7 +263,7 @@ Extracted those lines to error_lines.log.
 
 ![Log Parsing with Shell Scripting](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d1-lab4.png)
 
-#### Lab 4: Task Schedueling with Shell Scripting
+#### Lab 5: Task Schedueling with Shell Scripting
 
 ```bash
 ali@ironhack:~$ vim heartbeat.sh
