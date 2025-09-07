@@ -138,6 +138,94 @@ azureuser@server:~$ _
 
 ### حل اسبوع ٢ - يوم ١
 
+#### Lab 1: File Management with Shell Scripting
+
+```bash
+ali@ironhack:~$ # Lab 1
+ali@ironhack:~$ cd lab1/
+ali@ironhack:~/lab1$ vim file_manage.sh
+ali@ironhack:~/lab1$ ./file_manage.sh
+Creating directory lab1_test ...
+Creating a sample file in lab1_test ...
+Listing files in lab1_test:
+total 4
+-rw-rw-r-- 1 ali ali 30 Sep  7 10:38 sample.txt
+Creating backup directory lab1_backup ...
+Copying sample.txt to backup directory...
+Renaming sample.txt to sample_renamed.txt ...
+Moving sample_renamed.txt into a new subdirectory...
+Deleting the file in subdirectory...
+Cleaning up directories...
+File operations complete. Backup copy is in lab1_backup.
+ali@ironhack:~/lab1$ ls -lah
+total 16K
+drwxrwxr-x  3 ali ali 4.0K Sep  7 10:38 .
+drwxr-x--- 20 ali ali 4.0K Sep  7 10:38 ..
+-rwxrwxr-x  1 ali ali 1.9K Sep  7 10:38 file_manage.sh
+drwxrwxr-x  2 ali ali 4.0K Sep  7 10:38 lab1_backup
+ali@ironhack:~/lab1$ ls -lah lab1_backup/
+total 12K
+drwxrwxr-x 2 ali ali 4.0K Sep  7 10:38 .
+drwxrwxr-x 3 ali ali 4.0K Sep  7 10:38 ..
+-rw-rw-r-- 1 ali ali   30 Sep  7 10:38 sample.txt
+ali@ironhack:~/lab1$
+```
+
+![Lab 1: File Management with Shell Scripting](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d1-lab1.png)
+
+#### Lab 2: Process Monitoring with Shell Scripting
+
+```bash
+ali@ironhack:~$ # Lab 2
+ali@ironhack:~$ ps
+    PID TTY          TIME CMD
+   6607 pts/0    00:00:01 bash
+  19333 pts/0    00:00:00 vim
+  19351 pts/0    00:00:00 ps
+ali@ironhack:~$ vim check_process.sh
+ali@ironhack:~$ chmod +x check_process.sh
+ali@ironhack:~$ ./check_process.sh
+cron is running
+ali@ironhack:~$ vim check_process.sh
+ali@ironhack:~$ ./check_process.sh
+ssh is NOT running
+ali@ironhack:~$
+```
+
+![Process Monitoring with Shell Scripting](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d1-lab2.png)
+
+#### Lab 3: Backup Files & Folders with Shell Scripting
+
+```bash
+ali@ironhack:~$ mkdir lab3
+ali@ironhack:~$ cd lab3/
+ali@ironhack:~/lab3$ mkdir ../backup
+ali@ironhack:~/lab3$ touch ../backup/file_{1..5}.txt
+ali@ironhack:~/lab3$ vim backup.sh
+ali@ironhack:~/lab3$ vim backup.sh
+ali@ironhack:~/lab3$ chmod +x backup.sh
+ali@ironhack:~/lab3$ ./backup.sh
+Starting backup of /home/ali/backup to /home/ali/my-backups/myfolder_backup_20250907.tar.gz ...
+tar: Removing leading `/' from member names
+Backup completed successfully! ✅
+Backup file created: /home/ali/my-backups/myfolder_backup_20250907.tar.gz
+ali@ironhack:~/lab3$ ls -lah ~/my-backups/
+total 12K
+drwxrwxr-x  2 ali ali 4.0K Sep  7 10:54 .
+drwxr-x--- 24 ali ali 4.0K Sep  7 10:54 ..
+-rw-rw-r--  1 ali ali  188 Sep  7 10:54 myfolder_backup_20250907.tar.gz
+ali@ironhack:~/lab3$ tar -tf ../my-backups/myfolder_backup_20250907.tar.gz
+home/ali/backup/
+home/ali/backup/file_4.txt
+home/ali/backup/file_3.txt
+home/ali/backup/file_2.txt
+home/ali/backup/file_5.txt
+home/ali/backup/file_1.txt
+ali@ironhack:~/lab3$
+```
+
+![Backup Files & Folders with Shell Scripting](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d1-lab3.png)
+
 #### Extra Lab: Practicing Linux Commands
 
 موجود هنا [الحل](./w2-d1-extra-lab.md)
