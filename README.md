@@ -20,6 +20,7 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
   - [اسبوع ١ - يوم ٣](#اسبوع-١---يوم-٣)
   - [اسبوع ١ - يوم ٤](#اسبوع-١---يوم-٤)
   - [اسبوع ١ - يوم ٥](#اسبوع-١---يوم-٥)
+  - [اسبوع ٢ - يوم ١](#اسبوع-٢---يوم-١)
 - [حلول اللابات](#حلول-اللابات)
   - [حل اسبوع ١ - يوم ١](#حل-اسبوع-١---يوم-١)
   - [حل اسبوع ١ - يوم ٢](#حل-اسبوع-١---يوم-٢)
@@ -47,6 +48,12 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
 **الموضوع**: process vs service vs program, helpful bash stuff, alias
 
 **الشرح**: [devops week1 day5 process vs service vs program, helpful bash stuff, alias](https://youtu.be/K-oZHxQqi20)
+
+### اسبوع ٢ - يوم ١
+
+**الموضوع**: bash scripting and accepting command arguments as input
+
+**الشرح**: [devops week 2 day 1 bash scripting](https://youtu.be/OSCbi_X-1bU)
 
 ## حلول اللابات
 
