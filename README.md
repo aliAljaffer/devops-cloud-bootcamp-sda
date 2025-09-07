@@ -134,3 +134,9 @@ azureuser@server:~$ _
 ```
 
 ![Working with Web Servers](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/working-with-web-servers.png)
+
+### حل اسبوع ٢ - يوم ١
+
+#### Extra Lab: Practicing Linux Commands
+
+موجود هنا [الحل](./w2-d1-extra-lab.md)
