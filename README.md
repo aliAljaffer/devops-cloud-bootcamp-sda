@@ -226,6 +226,49 @@ ali@ironhack:~/lab3$
 
 ![Backup Files & Folders with Shell Scripting](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d1-lab3.png)
 
+#### Lab 4: Log Parsing with Shell Scripting
+
+```bash
+ali@ironhack:~$ vim parse_logs.sh
+ali@ironhack:~$ chmod +x parse_logs.sh
+ali@ironhack:~$ ./parse_logs.sh ding
+grep: /var/log/syslog: Permission denied
+grep: /var/log/syslog: Permission denied
+Found  lines containing "ding" in /var/log/syslog.
+Extracted those lines to error_lines.log.
+ali@ironhack:~$ sudo !!
+sudo ./parse_logs.sh ding
+Found 137 lines containing "ding" in /var/log/syslog.
+Extracted those lines to error_lines.log.
+ali@ironhack:~$ sudo ./parse_logs.sh error
+Found 4 lines containing "error" in /var/log/syslog.
+Extracted those lines to error_lines.log.
+```
+
+![Log Parsing with Shell Scripting](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d1-lab4.png)
+
+#### Lab 4: Task Schedueling with Shell Scripting
+
+```bash
+ali@ironhack:~$ vim heartbeat.sh
+ali@ironhack:~$ chmod +x heartbeat.sh
+ali@ironhack:~$ ./heartbeat.sh
+ali@ironhack:~$ cat heartbeat.log
+Heartbeat: 2025-09-07 11:30:07
+ali@ironhack:~$ crontab # Ctrl+C to exit if stuck
+^Cali@ironhack:~$ !! -e
+crontab -e
+crontab: installing new crontab
+ali@ironhack:~$ cat heartbeat.log
+Heartbeat: 2025-09-07 11:30:07
+ali@ironhack:~$ cat heartbeat.log
+Heartbeat: 2025-09-07 11:30:07
+Heartbeat: 2025-09-07 11:32:01
+ali@ironhack:~$
+```
+
+![Task Schedueling with Shell Scripting](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d1-lab5.png)
+
 #### Extra Lab: Practicing Linux Commands
 
 موجود هنا [الحل](./w2-d1-extra-lab.md)
