@@ -21,6 +21,7 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
   - [اسبوع ١ - يوم ٤](#اسبوع-١---يوم-٤)
   - [اسبوع ١ - يوم ٥](#اسبوع-١---يوم-٥)
   - [اسبوع ٢ - يوم ١](#اسبوع-٢---يوم-١)
+  - [اسبوع ٢ - يوم ٢](#اسبوع-٢---يوم-٢)
 - [حلول اللابات](#حلول-اللابات)
   - [حل اسبوع ١ - يوم ١](#حل-اسبوع-١---يوم-١)
   - [حل اسبوع ١ - يوم ٢](#حل-اسبوع-١---يوم-٢)
@@ -54,6 +55,12 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
 **الموضوع**: bash scripting and accepting command arguments as input
 
 **الشرح**: [devops week 2 day 1 bash scripting](https://youtu.be/OSCbi_X-1bU)
+
+### اسبوع ٢ - يوم ٢
+
+**الموضوع**: fixing lab 2 step 6's workflow
+
+**الشرح**: [devops week2 day2 lab 2 step 6 workflow fix](https://www.youtube.com/watch?v=EagDQUUbEC0)
 
 ## حلول اللابات
 
@@ -295,3 +302,15 @@ ali@ironhack:~$
 #### Extra Lab: Practicing Linux Commands
 
 موجود هنا [الحل](./w2-d1-extra-lab.md)
+
+### حل اسبوع ٢ - يوم ٢
+
+#### Lab 1: Provisioning Windows VM in Azure
+
+VMCeption. Mac RDP'd to Windows SSH'd to Ubuntu SSH'd to RedHat Enterprise Linux.
+
+![Lab 1](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d2/lab1.png)
+
+#### Lab 2: Provisioning a Web App in Azure
+
+![Lab 2](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d2/lab2.png)
