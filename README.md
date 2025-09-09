@@ -22,6 +22,7 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
   - [اسبوع ١ - يوم ٥](#اسبوع-١---يوم-٥)
   - [اسبوع ٢ - يوم ١](#اسبوع-٢---يوم-١)
   - [اسبوع ٢ - يوم ٢](#اسبوع-٢---يوم-٢)
+  - [اسبوع ٢ - يوم ٣](#اسبوع-٢---يوم-٣)
 - [حلول اللابات](#حلول-اللابات)
   - [حل اسبوع ١ - يوم ١](#حل-اسبوع-١---يوم-١)
   - [حل اسبوع ١ - يوم ٢](#حل-اسبوع-١---يوم-٢)
@@ -314,3 +315,66 @@ VMCeption. Mac RDP'd to Windows SSH'd to Ubuntu SSH'd to RedHat Enterprise Linux
 #### Lab 2: Provisioning a Web App in Azure
 
 ![Lab 2](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d2/lab2.png)
+
+### حل اسبوع ٢ - يوم ٣
+
+#### Lab 1: Provision VM with All Networking Components
+
+في السكرينشوت يوضح الريسورس قروب مع كل مكونات الشبكة, وتوضح صفحة الـVM وايضاً اني متصل عليها بـSSH والاي بي مطابق مع اللي في ازور
+
+![Provision VM with All Networking Components](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d3/w2d3-lab1.png)
+
+#### Lab 2: Provisioning a Load Balancer
+
+```bash
+ali@ironhack:~$ cat load-balance-tester.sh
+#!/bin/bash
+i=0
+ip="20.153.236.3"
+while [[ i -lt 10 ]];
+do
+	echo "curling $ip..."
+	curl $ip
+	echo "waiting 1 second..."
+	sleep 1
+	i=$i+1
+done
+ali@ironhack:~$ ./load-balance-tester.sh
+curling 20.153.236.3...
+Hi I'm machine devops2-vEZIY3O
+waiting 1 second...
+curling 20.153.236.3...
+Hi I'm machine devops2-vGC9V9L
+waiting 1 second...
+curling 20.153.236.3...
+Hi I'm machine devops2-vEZIY3O
+waiting 1 second...
+curling 20.153.236.3...
+Hi I'm machine devops2-vLTX0NE
+waiting 1 second...
+curling 20.153.236.3...
+Hi I'm machine devops2-vH76WTS
+waiting 1 second...
+curling 20.153.236.3...
+Hi I'm machine devops2-vH76WTS
+waiting 1 second...
+curling 20.153.236.3...
+Hi I'm machine devops2-vLTX0NE
+waiting 1 second...
+curling 20.153.236.3...
+Hi I'm machine devops2-vH76WTS
+waiting 1 second...
+curling 20.153.236.3...
+Hi I'm machine devops2-vGC9V9L
+waiting 1 second...
+curling 20.153.236.3...
+Hi I'm machine devops2-vLTX0NE
+waiting 1 second...
+ali@ironhack:~$
+```
+
+![Provisioning a Load Balancer](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d3/w2d3-lab2.png)
+
+#### Lab 3: Application Gateway
+
+![Application Gateway](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d3/w2d3-lab3.png)
