@@ -22,6 +22,7 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
   - [اسبوع ١ - يوم ٥](#اسبوع-١---يوم-٥)
   - [اسبوع ٢ - يوم ١](#اسبوع-٢---يوم-١)
   - [اسبوع ٢ - يوم ٢](#اسبوع-٢---يوم-٢)
+  - [اسبوع ٢ - يوم ٤](#اسبوع-٢---يوم-٤)
 - [حلول اللابات](#حلول-اللابات)
   - [حل اسبوع ١ - يوم ١](#حل-اسبوع-١---يوم-١)
   - [حل اسبوع ١ - يوم ٢](#حل-اسبوع-١---يوم-٢)
@@ -31,6 +32,7 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
   - [حل اسبوع ٢ - يوم ١](#حل-اسبوع-٢---يوم-١)
   - [حل اسبوع ٢ - يوم ٢](#حل-اسبوع-٢---يوم-٢)
   - [حل اسبوع ٢ - يوم ٣](#حل-اسبوع-٢---يوم-٣)
+  - [حل اسبوع ٢ - يوم ٤](#حل-اسبوع-٢---يوم-٤)
 
 ## شروحات يوتوب
 
@@ -63,6 +65,12 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
 **الموضوع**: fixing lab 2 step 6's workflow
 
 **الشرح**: [devops week2 day2 lab 2 step 6 workflow fix](https://www.youtube.com/watch?v=EagDQUUbEC0)
+
+### اسبوع ٢ - يوم ٤
+
+**الموضوع**: Three-tier web app assignment, part 1 (frontend)
+
+**الشرح**: [devops week2 day4 assignment explanation + frontend VM setup (PART 1)](https://youtu.be/0niIoA21IPA)
 
 ## حلول اللابات
 
@@ -379,3 +387,17 @@ ali@ironhack:~$
 #### Lab 3: Application Gateway
 
 ![Application Gateway](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d3/w2d3-lab3.png)
+
+### حل اسبوع ٢ - يوم ٤
+
+#### Lab 1:
+
+![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d4/w2d4-lab1.png)
+
+#### Lab 2:
+
+![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d4/w2d4-lab2.png)
+
+#### Assignment
+
+![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d4/w2d4-lab3.png)
