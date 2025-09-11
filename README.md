@@ -76,6 +76,8 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
 
 ملاحظة: فيه كوماند ناقص في الدقيقة ٢٨:٣٠ نحتاج نسويه قبل الكوبي: `npm run build`
 
+الفيديو فقط عشان نشوف البروسس كامل ولا المفترض إنك تبدأ فيه التاسك, المفترض انك تبدأ فيه بنفسك وتحاول توصل للمطلوب للاساينمنت ولو حسيت إنك ضعت تقدر تشوف الفيديو عشان الأفكار عشان تستفيد بقدر المستطاع من المعسكر وتجرب تنهي المهام هذي لأن اغلبها راح تصادفها في وظيفتك كـDevOps Engineer
+
 ### اسبوع ٢ - يوم ٥
 
 **الموضوع**: Three-tier web app assignment, part 2 (backend VM + database, connecting with frontend)
