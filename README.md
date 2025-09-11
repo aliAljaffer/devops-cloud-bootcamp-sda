@@ -23,6 +23,7 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
   - [اسبوع ٢ - يوم ١](#اسبوع-٢---يوم-١)
   - [اسبوع ٢ - يوم ٢](#اسبوع-٢---يوم-٢)
   - [اسبوع ٢ - يوم ٤](#اسبوع-٢---يوم-٤)
+  - [اسبوع ٢ - يوم ٥](#اسبوع-٢---يوم-٥)
 - [حلول اللابات](#حلول-اللابات)
   - [حل اسبوع ١ - يوم ١](#حل-اسبوع-١---يوم-١)
   - [حل اسبوع ١ - يوم ٢](#حل-اسبوع-١---يوم-٢)
@@ -33,6 +34,7 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
   - [حل اسبوع ٢ - يوم ٢](#حل-اسبوع-٢---يوم-٢)
   - [حل اسبوع ٢ - يوم ٣](#حل-اسبوع-٢---يوم-٣)
   - [حل اسبوع ٢ - يوم ٤](#حل-اسبوع-٢---يوم-٤)
+  - [حل اسبوع ٢ - يوم ٥](#حل-اسبوع-٢---يوم-٥)
 
 ## شروحات يوتوب
 
@@ -71,6 +73,12 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
 **الموضوع**: Three-tier web app assignment, part 1 (frontend)
 
 **الشرح**: [devops week2 day4 assignment explanation + frontend VM setup (PART 1)](https://youtu.be/0niIoA21IPA)
+
+### اسبوع ٢ - يوم ٥
+
+**الموضوع**: Three-tier web app assignment, part 2 (backend VM + database, connecting with frontend)
+
+**الشرح**: [devops week2 day5 (cont. day 4) database & backend VM setup (PART 2)](https://youtu.be/p8updzXNdCM)
 
 ## حلول اللابات
 
@@ -401,3 +409,9 @@ ali@ironhack:~$
 #### Assignment
 
 ![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d4/w2d4-lab3.png)
+
+### حل اسبوع ٢ - يوم ٥
+
+#### Lab 1: Monitoring Virtual Machines (CPU Load)
+
+![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d5/w2d5-lab1.png)
