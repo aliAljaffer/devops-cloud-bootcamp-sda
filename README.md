@@ -74,11 +74,17 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
 
 **الشرح**: [devops week2 day4 assignment explanation + frontend VM setup (PART 1)](https://youtu.be/0niIoA21IPA)
 
+ملاحظة: فيه كوماند ناقص في الدقيقة ٢٨:٣٠ نحتاج نسويه قبل الكوبي: `npm run build`
+
 ### اسبوع ٢ - يوم ٥
 
 **الموضوع**: Three-tier web app assignment, part 2 (backend VM + database, connecting with frontend)
 
 **الشرح**: [devops week2 day5 (cont. day 4) database & backend VM setup (PART 2)](https://youtu.be/p8updzXNdCM)
+
+**الموضوع**: Three-tier web app assignment, part 3 (application gateway, securing access to VMs, connecting it all)
+
+**الشرح**: [devops week2 day5 (cont. day4) application gateway & securing the vnet (PART 3)](https://youtu.be/4QQFo09Drm0)
 
 ## حلول اللابات
 
