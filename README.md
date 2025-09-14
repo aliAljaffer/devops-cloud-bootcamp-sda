@@ -35,6 +35,7 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
   - [حل اسبوع ٢ - يوم ٣](#حل-اسبوع-٢---يوم-٣)
   - [حل اسبوع ٢ - يوم ٤](#حل-اسبوع-٢---يوم-٤)
   - [حل اسبوع ٢ - يوم ٥](#حل-اسبوع-٢---يوم-٥)
+  - [حل اسبوع ٣ - يوم ١](حل-اسبوع-٣---يوم-١)
 
 ## شروحات يوتوب
 
@@ -423,3 +424,21 @@ ali@ironhack:~$
 #### Lab 1: Monitoring Virtual Machines (CPU Load)
 
 ![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d5/w2d5-lab1.png)
+
+### حل اسبوع ٣ - يوم ١
+
+#### Lab 1: Installing Docker
+
+![Installing Docker](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w3d1/w3d1-lab1.png)
+
+#### Lab 2: Containerize Node Application
+
+![Containerize Node Application](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w3d1/w3d1-lab2.png)
+
+#### Lab 3: Practicing Docker Commands
+
+![Practicing Docker Commands](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w3d1/w3d1-lab3.png)
+
+#### Lab 4: Provision a Azure Container Application and Deploy a Node Application
+
+![Provision a Azure Container Application and Deploy a Node Application](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w3d1/w3d1-lab4.png)
