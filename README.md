@@ -89,6 +89,18 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
 
 **الشرح**: [devops week2 day5 (cont. day4) application gateway & securing the vnet (PART 3)](https://youtu.be/4QQFo09Drm0)
 
+
+**الموضوع**: Enabling path-based routing by having a single listener on port 80 that routes to front/backend
+
+**زبدة المقطع**: تغييرات بسيطة عشان ما نحتاج نحدد البورت لما نطلب شي من الباك إند (جداً مهم للمشروع القادم في اسبوع 3) , الطلب للباك اند: 
+| قبل التعديل | بعد التعديل |
+| :-: | :-: |
+|`128.42.93.2:3001/api/` |`128.42.93.2/api/` |
+
+
+
+**الشرح**: [devops week2 day5 EXTRA WORK FOR ASSIGNMENT](https://youtu.be/KIDk_eVpGZ0)
+
 ## حلول اللابات
 
 ### حل اسبوع ١ - يوم ١
