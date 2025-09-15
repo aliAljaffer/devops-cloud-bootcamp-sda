@@ -458,3 +458,72 @@ ali@ironhack:~$
 #### Lab 4: Provision a Azure Container Application and Deploy a Node Application
 
 ![Provision a Azure Container Application and Deploy a Node Application](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w3d1/w3d1-lab4.png)
+
+### حل اسبوع ٣ - يوم ٢
+
+#### Lab 1:Deploy Standalone PostgreSQL Database with Docker Volumes
+
+![Deploy Standalone PostgreSQL Database with Docker Volumes](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w3d2/w3d2-lab1.png)
+
+#### Lab 2: Docker Networking
+
+![Docker Networking](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w3d2/w3d2-lab2.png)
+
+#### Lab 3: Deploy Two Tier Node.js & PostgreSQL App with Docker
+
+الكوماند في ملف الاساينمنت في خطوة ٥ عشان تشغل النود آب غلط, هذا الصح لو بتمشي بنفس كوماندز الملف اللي قبل
+
+`docker run -d   --name node-backend-app   --network my-app-network   -p 3001:3001   -e DATABASE_URL=postgresql://myappuser:mysecretpassword@postgres-db:5432/myappdb node-backend-app:latest`
+
+الغلط في الكوماند حقه انه جالس يضيف كل الانفايرونمنت فاريابلز بس ولا وحده اصلاً مستخدمة في الكود, الوحيد المستخدم هو فاريبل `DATABASE_URL` ويكون فيه الـconnection string للداتابيس فأضفته انا:
+
+`-e DATABASE_URL=postgresql://myappuser:mysecretpassword@postgres-db:5432/myappdb`
+
+![Deploy Two Tier Node.js & PostgreSQL App with Docker](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w3d2/w3d2-lab3.png)
+
+#### Lab 4: Deploy Two Tier Application with Docker Compose
+
+كان فيه غلط في build directory المفروض اننا نسوي مجلد اسمه backend بس اظن انه صلحه.
+
+فيه غلط في فورماتنق ملف دوكر كومبوز, كذا صح
+
+```yaml
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: notes_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - app-network
+
+  backend:
+    build: ./
+    ports:
+      - "3001:3001"
+    environment:
+      PORT: 3001
+      DATABASE_URL: postgresql://postgres:password@postgres:5432/notes_db
+      NODE_ENV: development
+    depends_on:
+      - postgres
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    networks:
+      - app-network
+
+volumes:
+  postgres_data:
+
+networks:
+  app-network:
+    driver: bridge
+```
+
+![Deploy Two Tier Application with Docker Compose](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w3d2/w3d2-lab4.png)
