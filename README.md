@@ -24,6 +24,7 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
   - [اسبوع ٢ - يوم ٢](#اسبوع-٢---يوم-٢)
   - [اسبوع ٢ - يوم ٤](#اسبوع-٢---يوم-٤)
   - [اسبوع ٢ - يوم ٥](#اسبوع-٢---يوم-٥)
+  - [اسبوع ٣ - يوم ١](اسبوع-٣---يوم-١)
 - [حلول اللابات](#حلول-اللابات)
   - [حل اسبوع ١ - يوم ١](#حل-اسبوع-١---يوم-١)
   - [حل اسبوع ١ - يوم ٢](#حل-اسبوع-١---يوم-٢)
@@ -97,6 +98,12 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
 |`128.42.93.2:3001/api/` |`128.42.93.2/api/` |
 
 **الشرح**: [devops week2 day5 EXTRA WORK FOR ASSIGNMENT](https://youtu.be/KIDk_eVpGZ0)
+
+### اسبوع ٣ - يوم ١
+
+**الموضوع**: Container vs VM, docker tags, port expose syntax `(80:3000 ???)` docker push (and why you get errors), and learning how to read a Dockerfile
+
+**الشرح**: [devops week3 day1 docker basics, Dockerfile analysis, why container vs. vm, docker build & tags](https://youtu.be/n8YvCYKv8jo)
 
 ## حلول اللابات
 
