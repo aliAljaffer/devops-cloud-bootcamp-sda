@@ -488,6 +488,12 @@ ali@ironhack:~$
 
 فيه غلط في فورماتنق ملف دوكر كومبوز, كذا صح
 
+للتحميل دايركت من التيرمنل للي عندهم مشاكل مع نسخ الكوماند:
+
+```bash
+curl -o docker-compose.yml https://raw.githubusercontent.com/aliAljaffer/devops-cloud-bootcamp-sda/refs/heads/main/w3d2-docker-compose.yml
+```
+
 ```yaml
 services:
   postgres:
