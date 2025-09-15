@@ -24,7 +24,7 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
   - [اسبوع ٢ - يوم ٢](#اسبوع-٢---يوم-٢)
   - [اسبوع ٢ - يوم ٤](#اسبوع-٢---يوم-٤)
   - [اسبوع ٢ - يوم ٥](#اسبوع-٢---يوم-٥)
-  - [اسبوع ٣ - يوم ١](اسبوع-٣---يوم-١)
+  - [اسبوع ٣ - يوم ١](#اسبوع-٣---يوم-١)
 - [حلول اللابات](#حلول-اللابات)
   - [حل اسبوع ١ - يوم ١](#حل-اسبوع-١---يوم-١)
   - [حل اسبوع ١ - يوم ٢](#حل-اسبوع-١---يوم-٢)
@@ -36,8 +36,8 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
   - [حل اسبوع ٢ - يوم ٣](#حل-اسبوع-٢---يوم-٣)
   - [حل اسبوع ٢ - يوم ٤](#حل-اسبوع-٢---يوم-٤)
   - [حل اسبوع ٢ - يوم ٥](#حل-اسبوع-٢---يوم-٥)
-  - [حل اسبوع ٣ - يوم ١](حل-اسبوع-٣---يوم-١)
-  - [حل اسبوع ٣ - يوم ٢](حل-اسبوع-٣---يوم-٢)
+  - [حل اسبوع ٣ - يوم ١](#حل-اسبوع-٣---يوم-١)
+  - [حل اسبوع ٣ - يوم ٢](#حل-اسبوع-٣---يوم-٢)
 
 ## شروحات يوتوب
 
@@ -120,19 +120,19 @@ Group work on Miro
 
 #### Lab 1: Git Installation and Setup
 
-![Git Installation and Setup](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/git-installation-and-setup.png)
+![Git Installation and Setup](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w1d3/git-installation-and-setup.png)
 
 #### Lab 2: Git Workflow
 
-![Git Workflow](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/git-workflow.png)
+![Git Workflow](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w1d3/git-workflow.png)
 
 #### Lab 3: Branches
 
-![Git Branches](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/git-branches.png)
+![Git Branches](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w1d3/git-branches.png)
 
 #### Lab 4: Collaborating with Remote
 
-![Collaborating with Remote](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/collaborating-with-remote.png)
+![Collaborating with Remote](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w1d3/collaborating-with-remote.png)
 
 ### حل اسبوع ١ - يوم ٤
 
@@ -140,19 +140,19 @@ Group work on Miro
 
 في الصورة ظاهر اني مسوي كونكت عالـVM وفي الويندو اللي ورا ظاهر انها شغالة تمام, عشان كذا حسيت صورة وحدة كافية
 
-![Setup Linux Machine in Azure Cloud](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/setup-linux-machine-azure-cloud.png)
+![Setup Linux Machine in Azure Cloud](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w1d4/setup-linux-machine-azure-cloud.png)
 
 #### Lab 2: Basic Navigation Commands in Linux
 
-![Basic Navigation Commands in Linux](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/basic-navigation-commands-in-linux.png)
+![Basic Navigation Commands in Linux](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w1d4/basic-navigation-commands-in-linux.png)
 
 #### Lab 3: File Permissions in Linux
 
-![File Permissions in Linux](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/file-permissions-in-linux.png)
+![File Permissions in Linux](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w1d4/file-permissions-in-linux.png)
 
 #### Lab 4: Editing Files with vi / vim
 
-![Editing Files with vi / vim](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/editing-files-with-vi-vim.png)
+![Editing Files with vi / vim](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w1d4/editing-files-with-vi-vim.png)
 
 ### حل اسبوع ١ - يوم ٥
 
@@ -192,7 +192,7 @@ Done!
 azureuser@server:~$ _
 ```
 
-![Working with Web Servers](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/working-with-web-servers.png)
+![Working with Web Servers](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w1d5/working-with-web-servers.png)
 
 ### حل اسبوع ٢ - يوم ١
 
@@ -229,7 +229,7 @@ drwxrwxr-x 3 ali ali 4.0K Sep  7 10:38 ..
 ali@ironhack:~/lab1$
 ```
 
-![Lab 1: File Management with Shell Scripting](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d1-lab1.png)
+![Lab 1: File Management with Shell Scripting](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d1/w2d1-lab1.png)
 
 #### Lab 2: Process Monitoring with Shell Scripting
 
@@ -250,7 +250,7 @@ ssh is NOT running
 ali@ironhack:~$
 ```
 
-![Process Monitoring with Shell Scripting](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d1-lab2.png)
+![Process Monitoring with Shell Scripting](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d1/w2d1-lab2.png)
 
 #### Lab 3: Backup Files & Folders with Shell Scripting
 
@@ -282,7 +282,7 @@ home/ali/backup/file_1.txt
 ali@ironhack:~/lab3$
 ```
 
-![Backup Files & Folders with Shell Scripting](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d1-lab3.png)
+![Backup Files & Folders with Shell Scripting](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d1/w2d1-lab3.png)
 
 #### Lab 4: Log Parsing with Shell Scripting
 
@@ -319,7 +319,7 @@ Found 4 lines containing "error" in /var/log/syslog.
 Extracted those lines to error_lines.log.
 ```
 
-![Log Parsing with Shell Scripting](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d1-lab4.png)
+![Log Parsing with Shell Scripting](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d1/w2d1-lab4.png)
 
 #### Lab 5: Task Schedueling with Shell Scripting
 
@@ -341,7 +341,7 @@ Heartbeat: 2025-09-07 11:32:01
 ali@ironhack:~$
 ```
 
-![Task Schedueling with Shell Scripting](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d1-lab5.png)
+![Task Schedueling with Shell Scripting](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d1/w2d1-lab5.png)
 
 #### Extra Lab: Practicing Linux Commands
 
@@ -526,5 +526,7 @@ networks:
   app-network:
     driver: bridge
 ```
+
+ملاحظة: دايركتوري الباك اند في الصورة كانت قبل لا يعدل اللاب
 
 ![Deploy Two Tier Application with Docker Compose](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w3d2/w3d2-lab4.png)
