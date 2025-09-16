@@ -38,6 +38,7 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
   - [حل اسبوع ٢ - يوم ٥](#حل-اسبوع-٢---يوم-٥)
   - [حل اسبوع ٣ - يوم ١](#حل-اسبوع-٣---يوم-١)
   - [حل اسبوع ٣ - يوم ٢](#حل-اسبوع-٣---يوم-٢)
+  - [حل اسبوع ٣ - يوم ٣](#حل-اسبوع-٣---يوم-٣)
 
 ## شروحات يوتوب
 
@@ -536,3 +537,121 @@ networks:
 ملاحظة: دايركتوري الباك اند في الصورة كانت قبل لا يعدل اللاب
 
 ![Deploy Two Tier Application with Docker Compose](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w3d2/w3d2-lab4.png)
+
+### حل اسبوع ٣ - يوم ٣
+
+#### Lab 1: (Multi-stage Build) Deploy a Java Application as a Docker Container
+
+##### تعديل خطأ
+
+في الدوكرفايل فيه لاين غلط:
+
+`COPY --from=builder /app/target/ecommerce-app-1.1-SNAPSHOT.jar app.jar`
+
+الصح هو النسخة 1.0 ومش 1.1:
+
+`COPY --from=builder /app/target/ecommerce-app-1.0-SNAPSHOT.jar app.jar`
+
+![https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w3d3/w3d3-lab1.png](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w3d3/w3d3-lab1.png)
+
+#### Assignment: Deploy a Three-Tier Application with Docker Compose
+
+##### تعديلات الأخطاء
+
+###### خطأ ١
+
+في الفرونت اند فيه مجلد وملف ضروريين ماهم موجودين في الريبوزيتوري
+تحتاج مجلد public داخل مجلد frontend وداخله ملف index.html بهالمحتوى:
+
+```html
+<html>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+```
+
+موقع الملف:
+
+`docker-assignment-ih/frontend/public/index.html`
+
+###### خطأ ٢
+
+البكجات قديمة وتحتاج تضيف تحديث لأحد البكجات عشان يزبط في الدوكرفايل
+
+بعد أمر الـ`RUN npm install`
+
+```Dockerfile
+...
+...
+RUN npm install --save-dev ajv@^8
+...
+...
+```
+
+راح يحمل اخر نسخة (٨) من بكج `ajv`
+
+---
+
+#### docker compose file
+
+الباث له يكون:
+
+`docker-assignment-ih/docker-compose.yml`
+
+تحميل محتواه:
+
+`curl -o docker-compose.yml https://raw.githubusercontent.com/aliAljaffer/devops-cloud-bootcamp-sda/refs/heads/main/w3d3-docker-assignment-docker-compose.yml`
+
+المحتوى:
+
+```yaml
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: user
+      POSTGRES_DB: notes_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - assignment-network
+  backend:
+    depends_on:
+      - postgres
+    build: ./backend # هنا نحدد موقع الدوكرفايل للباك اند
+    ports:
+      - "3001:3001"
+    environment:
+      PORT: 3001
+      DATABASE_URL: postgresql://user:password@postgres:5432/notes_db
+      NODE_ENV: development
+    networks:
+      - assignment-network
+  frontend:
+    build: ./frontend # هنا نحدد موقع الدوكرفايل للفرونت اند
+    depends_on:
+      - backend
+    ports:
+      - "3000:3000"
+    environment:
+      REACT_APP_API_URL: http://localhost:3001
+    networks:
+      - assignment-network
+volumes:
+  postgres_data:
+networks:
+  assignment-network:
+    driver: bridge
+```
+
+أمر tree فقط يوريك هيكل المجلد اللي انت فيه فأنا احطه عشان ابين لكم الملفات اللي حاطها وموقعها
+
+![tree](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w3d3/w3d3-extra.png)
+
+الحل النهائي:
+
+![Solution](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w3d3/w3d3-assignment.png)
