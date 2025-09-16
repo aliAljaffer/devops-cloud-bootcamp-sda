@@ -584,7 +584,9 @@ networks:
 ```Dockerfile
 ...
 ...
+
 RUN npm install --save-dev ajv@^8
+
 ...
 ...
 ```
@@ -599,9 +601,11 @@ RUN npm install --save-dev ajv@^8
 
 `docker-assignment-ih/docker-compose.yml`
 
-تحميل محتواه:
+تحميل محتواه من التيرمنال بس انسخ هالكوماند:
 
-`curl -o docker-compose.yml https://raw.githubusercontent.com/aliAljaffer/devops-cloud-bootcamp-sda/refs/heads/main/w3d3-docker-assignment-docker-compose.yml`
+```bash
+curl -o docker-compose.yml https://raw.githubusercontent.com/aliAljaffer/devops-cloud-bootcamp-sda/refs/heads/main/w3d3-docker-assignment-docker-compose.yml
+```
 
 المحتوى:
 
