@@ -346,7 +346,7 @@ ali@ironhack:~$
 
 #### Extra Lab: Practicing Linux Commands
 
-موجود هنا [الحل](./w2-d1-extra-lab.md)
+موجود هنا [الحل](./extra-files/w2-d1-extra-lab.md)
 
 ### حل اسبوع ٢ - يوم ٢
 
@@ -492,7 +492,7 @@ ali@ironhack:~$
 للتحميل دايركت من التيرمنل للي عندهم مشاكل مع نسخ الكوماند:
 
 ```bash
-curl -o docker-compose.yml https://raw.githubusercontent.com/aliAljaffer/devops-cloud-bootcamp-sda/refs/heads/main/w3d2-docker-compose.yml
+curl -o docker-compose.yml https://raw.githubusercontent.com/aliAljaffer/devops-cloud-bootcamp-sda/refs/heads/main/extra-files/w3d2-docker-compose.yml
 ```
 
 ```yaml
@@ -604,7 +604,7 @@ RUN npm install --save-dev ajv@^8
 تحميل محتواه من التيرمنال بس انسخ هالكوماند:
 
 ```bash
-curl -o docker-compose.yml https://raw.githubusercontent.com/aliAljaffer/devops-cloud-bootcamp-sda/refs/heads/main/w3d3-docker-assignment-docker-compose.yml
+curl -o docker-compose.yml https://raw.githubusercontent.com/aliAljaffer/devops-cloud-bootcamp-sda/refs/heads/main/extra-files/w3d3-docker-assignment-docker-compose.yml
 ```
 
 المحتوى:
