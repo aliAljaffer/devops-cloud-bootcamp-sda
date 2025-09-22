@@ -1,0 +1,16 @@
+name: "my first workflow"
+
+on:
+  push:
+    branches:
+      [ "main"]
+jobs:
+  list-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "List files"
+        run: "ls -lah"
+      - name: "Checkout our code"
+        uses: "actions/checkout@v4"
+      - name: "List files"
+        run: "ls -lah"
