@@ -1,0 +1,15 @@
+name: "my first workflow"
+
+on:
+  push:
+    branches:
+      [ "main"]
+
+env:
+  my_secret: ${{secrets.REACT_APP_API_URL}}
+jobs:
+  list-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Echo the secret"
+        run: "echo ${{env.my_secret}}"
