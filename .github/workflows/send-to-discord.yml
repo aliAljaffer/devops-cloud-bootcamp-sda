@@ -1,0 +1,20 @@
+name: "Send To Discord"
+
+on:
+  push:
+    branches:
+      [ "main"]
+
+env:
+  webhook: "https://discord.com/api/webhooks/1419723289231626322/hNyq6w455b0HZrN8XuWy4pdBBLPQpgAH9ssUGcYHF-Bil2REHofO4FpS9doZADeXzTbr"
+jobs:
+  sending:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Discord Webhook Action
+        uses: tsickert/discord-webhook@v7.0.0
+        with:
+          webhook-url: ${{env.webhook}}
+          content: "Hi!! Someone pushed a commit to your DevOps repository"
+
+          
