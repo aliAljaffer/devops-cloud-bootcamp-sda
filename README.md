@@ -743,11 +743,11 @@ networks:
 
 ### حل اسبوع ٤ - يوم ٢
 
-#### Lab 1
+#### Lab 1: Your first Github Actions Workflow
 
 [سلمت وركفلو مستخدمه قبل](https://github.com/aliAljaffer/aliAljaffer.github.io/blob/main/.github/workflows/build-and-aws-deploy.yml)
 
-#### Lab 2
+#### Lab 2: Build, Test & Publish Artefact for a Nodejs App
 
 للي يفشل معهم الووركفلو يعدلوا عاللاينات اللي محددها
 ![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d2/w4d2-lab2-fix.png)
@@ -756,7 +756,11 @@ networks:
 
 ![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d2/w4d2-lab2.png)
 
-#### Lab 3
+#### Lab 3: Build, Test & Publish Artefact for a Java-Maven App
+
+In progress
+
+#### Lab 4: Setup SonarQube
 
 اذا يطول ويجيك ايرور لما توصل لمرحلة نسخ الكوماند اللي من سيرفر سونار كيوب, بس سوي ريستارت للسوناركيوب من التيرمنل اللي سويت منه docker compose up
 
@@ -777,9 +781,9 @@ networks:
 
 ![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d2/w4d2-lab3.png)
 
-#### Lab 4
+#### Lab 5: Sonarqube Integration with Nodejs App
 
-#### Lab 5
+In progress
 
 ### حل اسبوع ٤ - يوم ٣
 
