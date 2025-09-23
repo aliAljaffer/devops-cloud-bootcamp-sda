@@ -779,7 +779,7 @@ In progress
 [ali ~/docker-stuff/sonarqube-setup-ih]$
 ```
 
-![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d2/w4d2-lab3.png)
+![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d2/w4d2-lab4.png)
 
 #### Lab 5: Sonarqube Integration with Nodejs App
 
