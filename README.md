@@ -758,7 +758,7 @@ networks:
 
 #### Lab 3: Build, Test & Publish Artefact for a Java-Maven App
 
-In progress
+![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d2/w4d2-lab3.png)
 
 #### Lab 4: Setup SonarQube
 
@@ -783,7 +783,14 @@ In progress
 
 #### Lab 5: Sonarqube Integration with Nodejs App
 
-In progress
+الوركفلو المصحح
+[هنا](./extra-files/w3d3-docker-assignment-docker-compose.yml)
+
+لاين 36 يحمل اضافة التست
+
+لاين 38 يستخدم الباث الصح لملف التست
+
+![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d2/w4d2-lab5.png)
 
 ### حل اسبوع ٤ - يوم ٣
 
