@@ -793,14 +793,46 @@ networks:
 
 #### Lab 1: Provision a Linux VM on Azure using Azure CLI
 
+للاونسايت: [هنا](#lab-3-build-test--deploy-a-nodejs-app-on-azure-vm)
+
 ![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d5/w4d5-lab1.png)
 
 #### Lab 2: Provision Azure Blob Storage with Azure CLI
+
+للاونسايت: [هنا](#lab-4-deploy-a-nodejs-app-on-a-azure-container-apps-using-gh-actions)
 
 ![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d5/w4d5-lab2.png)
 
 #### Lab 3: Build, Test & Deploy a Nodejs App on Azure VM
 
+هذي السيكرتس اللي بتكون مطلوبة على كامل اللابز. راح تحتاجها حبة حبة بس انا سحبت عى السوناركيوب في هاللاب وشلت التستنق
+
+![alt text](./extra-files/image.png)
+
+هذا لاب ١ لقسم الاونسايت
+
+App deployed (and missing the `public/` folder hehe)
+
+ملف الوركفلو هنا: [w4d5-online-lab-3-onsite-lab-1.yml](./extra-files/w4d5-online-lab-3-onsite-lab-1.yml)
+
+![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d5/w4d5-lab3.png)
+
 #### Lab 4: Deploy a Nodejs App on a Azure Container Apps (using GH Actions)
 
+هذا لاب ٢ لقسم الاونسايت
+
+ملف الوركفلو هنا: [w4d5-online-lab-4-onsite-lab-2.yml](./extra-files/w4d5-online-lab-4-onsite-lab-2.yml)
+
+App deployed (and missing the `public/` folder hehe)
+
+![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d5/w4d5-lab4.png)
+
 #### Lab 5: Deploy a Nodejs App on a Azure Web App (App Services) (using GH Actions)
+
+هذا لاب ٣ لقسم الاونسايت
+
+ملف الوركفلو هنا: [w4d5-online-lab-5-onsite-lab-3.yml](./extra-files/w4d5-online-lab-5-onsite-lab-3.yml)
+
+App deployed (and missing the `public/` folder hehe)
+
+![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d5/w4d5-lab5.png)

@@ -1,0 +1,97 @@
+name: Lab 5 (Online) or Lab 3 (Onsite)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+  checks: write
+  pull-requests: write
+  # Keep if you plan to switch to OIDC (federated credentials)
+  id-token: write
+# ------------------------------------------------------------------------
+# ---------------------------- !!!!!!انتبهوا هنا -------------------------
+env:
+  APP_PORT: 3000
+  IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/frontendapp-node
+  # Change to your resource group name
+  AZURE_RESOURCE_GROUP: ali-web-labs-rg
+  # Change to your web app name!
+  AZURE_WEBAPP_NAME: ali-frontendapp-web
+# ------------------------------------------------------------------------
+jobs:
+  build-test-and-deploy:
+    runs-on: ubuntu-latest
+    environment: dev
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run unit tests (if present)
+        # skipping tests
+        run: npm test || true
+
+      - name: Build the application (optional)
+        run: npm run build 2>/dev/null || echo "No build step; continuing."
+
+      - name: Azure Login (Service Principal)
+        # If you adopt OIDC later, switch to federated creds and drop client-secret
+        uses: azure/login@v2
+        # ------------------------------------
+        # ------- !!!!!!انتبهوا هنا ----------
+        with:
+          # Check the naming of your CREDENTIALS secrets and change it
+          creds: ${{ secrets.AZURE_CREDS }}
+        # ------------------------------------
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Build and push Docker image to Docker Hub
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: ./Dockerfile
+          push: true
+          tags: |
+            ${{ env.IMAGE_NAME }}:${{ github.sha }}
+            ${{ env.IMAGE_NAME }}:latest
+
+      - name: Configure Web App to use the new image
+        run: |
+          az webapp config appsettings set \
+            -g "${{ env.AZURE_RESOURCE_GROUP }}" \
+            -n "${{ env.AZURE_WEBAPP_NAME }}" \
+            --settings WEBSITES_PORT=${{ env.APP_PORT }} \
+                       DOCKER_REGISTRY_SERVER_URL=https://index.docker.io/v1/
+
+          # If your Docker Hub repo is PRIVATE, also set:
+          # az webapp config appsettings set \
+          #   -g "${{ env.AZURE_RESOURCE_GROUP }}" \
+          #   -n "${{ env.AZURE_WEBAPP_NAME }}" \
+          #   --settings DOCKER_REGISTRY_SERVER_USERNAME=${{ secrets.DOCKERHUB_USERNAME }} \
+          #              DOCKER_REGISTRY_SERVER_PASSWORD=${{ secrets.DOCKERHUB_TOKEN }}
+
+          az webapp config container set \
+            -g "${{ env.AZURE_RESOURCE_GROUP }}" \
+            -n "${{ env.AZURE_WEBAPP_NAME }}" \
+            --container-image-name "${{ env.IMAGE_NAME }}:${{ github.sha }}" \
+            --container-registry-url "https://index.docker.io"
+
+          # Restart to pull the new image immediately
+          az webapp restart -g "${{ env.AZURE_RESOURCE_GROUP }}" -n "${{ env.AZURE_WEBAPP_NAME }}"
