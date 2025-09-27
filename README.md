@@ -501,21 +501,21 @@ ali@ironhack:~$
 
 #### Lab 1:
 
-![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d4/w2d4-lab1.png)
+![Lab 1](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d4/w2d4-lab1.png)
 
 #### Lab 2:
 
-![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d4/w2d4-lab2.png)
+![Lab 2](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d4/w2d4-lab2.png)
 
 #### Assignment
 
-![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d4/w2d4-lab3.png)
+![Assignment](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d4/w2d4-lab3.png)
 
 ### حل اسبوع ٢ - يوم ٥
 
 #### Lab 1: Monitoring Virtual Machines (CPU Load)
 
-![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d5/w2d5-lab1.png)
+![Monitoring Virtual Machines (CPU Load)](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w2d5/w2d5-lab1.png)
 
 ### حل اسبوع ٣ - يوم ١
 
@@ -743,15 +743,15 @@ networks:
 #### Lab 2: Build, Test & Publish Artefact for a Nodejs App
 
 للي يفشل معهم الووركفلو يعدلوا عاللاينات اللي محددها
-![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d2/w4d2-lab2-fix.png)
+![Build, Test & Publish Artefact for a Nodejs App](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d2/w4d2-lab2-fix.png)
 
 وراح يزبط ان شاء الله
 
-![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d2/w4d2-lab2.png)
+![Build, Test & Publish Artefact for a Nodejs App](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d2/w4d2-lab2.png)
 
 #### Lab 3: Build, Test & Publish Artefact for a Java-Maven App
 
-![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d2/w4d2-lab3.png)
+![Build, Test & Publish Artefact for a Java-Maven App](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d2/w4d2-lab3.png)
 
 #### Lab 4: Setup SonarQube
 
@@ -772,7 +772,7 @@ networks:
 [ali ~/docker-stuff/sonarqube-setup-ih]$
 ```
 
-![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d2/w4d2-lab4.png)
+![Setup SonarQube](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d2/w4d2-lab4.png)
 
 #### Lab 5: Sonarqube Integration with Nodejs App
 
@@ -783,7 +783,7 @@ networks:
 
 لاين 38 يستخدم الباث الصح لملف التست
 
-![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d2/w4d2-lab5.png)
+![Sonarqube Integration with Nodejs App](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d2/w4d2-lab5.png)
 
 ### حل اسبوع ٤ - يوم ٣
 
@@ -795,13 +795,13 @@ networks:
 
 للاونسايت: [هنا](#lab-3-build-test--deploy-a-nodejs-app-on-azure-vm)
 
-![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d5/w4d5-lab1.png)
+![Provision a Linux VM on Azure using Azure CLI](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d5/w4d5-lab1.png)
 
 #### Lab 2: Provision Azure Blob Storage with Azure CLI
 
 للاونسايت: [هنا](#lab-4-deploy-a-nodejs-app-on-a-azure-container-apps-using-gh-actions)
 
-![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d5/w4d5-lab2.png)
+![Provision Azure Blob Storage with Azure CLI](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d5/w4d5-lab2.png)
 
 #### Lab 3: Build, Test & Deploy a Nodejs App on Azure VM
 
@@ -815,7 +815,7 @@ App deployed (and missing the `public/` folder hehe)
 
 ملف الوركفلو هنا: [w4d5-online-lab-3-onsite-lab-1.yml](./extra-files/w4d5-online-lab-3-onsite-lab-1.yml)
 
-![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d5/w4d5-lab3.png)
+![Build, Test & Deploy a Nodejs App on Azure VM](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d5/w4d5-lab3.png)
 
 #### Lab 4: Deploy a Nodejs App on a Azure Container Apps (using GH Actions)
 
@@ -825,7 +825,7 @@ App deployed (and missing the `public/` folder hehe)
 
 App deployed (and missing the `public/` folder hehe)
 
-![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d5/w4d5-lab4.png)
+![Deploy a Nodejs App on a Azure Container Apps (using GH Actions)](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d5/w4d5-lab4.png)
 
 #### Lab 5: Deploy a Nodejs App on a Azure Web App (App Services) (using GH Actions)
 
@@ -835,4 +835,4 @@ App deployed (and missing the `public/` folder hehe)
 
 App deployed (and missing the `public/` folder hehe)
 
-![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d5/w4d5-lab5.png)
+![Deploy a Nodejs App on a Azure Web App (App Services) (using GH Actions)](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d5/w4d5-lab5.png)
