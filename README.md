@@ -777,7 +777,7 @@ networks:
 #### Lab 5: Sonarqube Integration with Nodejs App
 
 الوركفلو المصحح
-[هنا](./extra-files/w3d3-docker-assignment-docker-compose.yml)
+[هنا](./extra-files/w4d2-lab5-workflow.yml)
 
 لاين 36 يحمل اضافة التست
 
