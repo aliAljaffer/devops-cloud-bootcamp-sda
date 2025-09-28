@@ -76,8 +76,8 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
   - [حل اسبوع ٤ - يوم ٣](#حل-اسبوع-٤---يوم-٣)
   - [حل اسبوع ٤ - يوم ٤](#حل-اسبوع-٤---يوم-٤)
   - [حل اسبوع ٤ - يوم ٥](#حل-اسبوع-٤---يوم-٥)
-  <!--  - [حل اسبوع ٥ - يوم ١](#حل-اسبوع-٥---يوم-١)
-  - [حل اسبوع ٥ - يوم ٢](#حل-اسبوع-٥---يوم-٢)
+  - [حل اسبوع ٥ - يوم ١](#حل-اسبوع-٥---يوم-١)
+  <!--  - [حل اسبوع ٥ - يوم ٢](#حل-اسبوع-٥---يوم-٢)
   - [حل اسبوع ٥ - يوم ٣](#حل-اسبوع-٥---يوم-٣)
   - [حل اسبوع ٥ - يوم ٤](#حل-اسبوع-٥---يوم-٤)
   - [حل اسبوع ٥ - يوم ٥](#حل-اسبوع-٥---يوم-٥)
@@ -836,3 +836,21 @@ App deployed (and missing the `public/` folder hehe)
 App deployed (and missing the `public/` folder hehe)
 
 ![Deploy a Nodejs App on a Azure Web App (App Services) (using GH Actions)](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w4d5/w4d5-lab5.png)
+
+### حل اسبوع ٥ - يوم ١
+
+#### Lab 1: Install and Setup Terraform
+
+![Install and Setup Terraform](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d1/w5d1-lab1.png)
+
+#### Lab 2: Provision Your First Infrastructure on Azure with Terraform
+
+![Provision Your First Infrastructure on Azure with Terraform](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d1/w5d1-lab2.png)
+
+#### Lab 3: Provision an Azure Linux Virtual Machine in a Custom Virtual Network using Terraform
+
+![Provision an Azure Linux Virtual Machine in a Custom Virtual Network using Terraform](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d1/w5d1-lab3.png)
+
+#### Lab 4: Store Terraform State in Remote Storage (Azure Storage Account)
+
+![Store Terraform State in Remote Storage (Azure Storage Account)](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d1/w5d1-lab4.png)
