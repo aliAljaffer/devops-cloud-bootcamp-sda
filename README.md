@@ -77,8 +77,8 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
   - [حل اسبوع ٤ - يوم ٤](#حل-اسبوع-٤---يوم-٤)
   - [حل اسبوع ٤ - يوم ٥](#حل-اسبوع-٤---يوم-٥)
   - [حل اسبوع ٥ - يوم ١](#حل-اسبوع-٥---يوم-١)
-  <!--  - [حل اسبوع ٥ - يوم ٢](#حل-اسبوع-٥---يوم-٢)
-  - [حل اسبوع ٥ - يوم ٣](#حل-اسبوع-٥---يوم-٣)
+  - [حل اسبوع ٥ - يوم ٢](#حل-اسبوع-٥---يوم-٢)
+  <!--  - [حل اسبوع ٥ - يوم ٣](#حل-اسبوع-٥---يوم-٣)
   - [حل اسبوع ٥ - يوم ٤](#حل-اسبوع-٥---يوم-٤)
   - [حل اسبوع ٥ - يوم ٥](#حل-اسبوع-٥---يوم-٥)
   - [حل اسبوع ٦ - يوم ١](#حل-اسبوع-٦---يوم-١)
@@ -854,3 +854,21 @@ App deployed (and missing the `public/` folder hehe)
 #### Lab 4: Store Terraform State in Remote Storage (Azure Storage Account)
 
 ![Store Terraform State in Remote Storage (Azure Storage Account)](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d1/w5d1-lab4.png)
+
+### حل اسبوع ٥ - يوم ٢
+
+#### Lab 1:Practice count and for_each Meta-Arguments in Terraform
+
+![Practice count and for_each Meta-Arguments in Terraform](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d2/w5d2-lab1.png)
+
+#### Lab 2:Building Reusable Components in Terraform
+
+![Building Reusable Components in Terraform](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d2/w5d2-lab2.png)
+
+#### Lab 3:Troubleshooting Terraform Scripts
+
+![Troubleshooting Terraform Scripts](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d2/w5d2-lab3.png)
+
+#### Lab 4:Terraform Workspaces
+
+![Terraform Workspaces](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d2/w5d2-lab4.png)
