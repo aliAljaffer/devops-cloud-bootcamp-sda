@@ -78,8 +78,8 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
   - [حل اسبوع ٤ - يوم ٥](#حل-اسبوع-٤---يوم-٥)
   - [حل اسبوع ٥ - يوم ١](#حل-اسبوع-٥---يوم-١)
   - [حل اسبوع ٥ - يوم ٢](#حل-اسبوع-٥---يوم-٢)
-  <!--  - [حل اسبوع ٥ - يوم ٣](#حل-اسبوع-٥---يوم-٣)
-  - [حل اسبوع ٥ - يوم ٤](#حل-اسبوع-٥---يوم-٤)
+  - [حل اسبوع ٥ - يوم ٣](#حل-اسبوع-٥---يوم-٣)
+  <!--  - [حل اسبوع ٥ - يوم ٤](#حل-اسبوع-٥---يوم-٤)
   - [حل اسبوع ٥ - يوم ٥](#حل-اسبوع-٥---يوم-٥)
   - [حل اسبوع ٦ - يوم ١](#حل-اسبوع-٦---يوم-١)
   - [حل اسبوع ٦ - يوم ٢](#حل-اسبوع-٦---يوم-٢)
@@ -872,3 +872,19 @@ App deployed (and missing the `public/` folder hehe)
 #### Lab 4:Terraform Workspaces
 
 ![Terraform Workspaces](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d2/w5d2-lab4.png)
+
+### حل اسبوع ٥ - يوم ٣
+
+#### Lab 1
+
+![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d3/w5d3-lab1.png)
+
+#### Lab 2
+
+![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d3/w5d3-lab2.png)
+
+#### Extra Assignment:
+
+Workflow used: [Here](https://github.com/aliAljaffer/terraform-3t-app-with-cicd/blob/main/.github/workflows/3t-deploy.yml)
+
+![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d3/w5d3-lab-extra.png)
