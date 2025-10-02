@@ -79,9 +79,9 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
   - [حل اسبوع ٥ - يوم ١](#حل-اسبوع-٥---يوم-١)
   - [حل اسبوع ٥ - يوم ٢](#حل-اسبوع-٥---يوم-٢)
   - [حل اسبوع ٥ - يوم ٣](#حل-اسبوع-٥---يوم-٣)
-  <!--  - [حل اسبوع ٥ - يوم ٤](#حل-اسبوع-٥---يوم-٤)
+  - [حل اسبوع ٥ - يوم ٤](#حل-اسبوع-٥---يوم-٤)
   - [حل اسبوع ٥ - يوم ٥](#حل-اسبوع-٥---يوم-٥)
-  - [حل اسبوع ٦ - يوم ١](#حل-اسبوع-٦---يوم-١)
+  <!--  - [حل اسبوع ٦ - يوم ١](#حل-اسبوع-٦---يوم-١)
   - [حل اسبوع ٦ - يوم ٢](#حل-اسبوع-٦---يوم-٢)
   - [حل اسبوع ٦ - يوم ٣](#حل-اسبوع-٦---يوم-٣)
   - [حل اسبوع ٦ - يوم ٤](#حل-اسبوع-٦---يوم-٤)
@@ -857,19 +857,19 @@ App deployed (and missing the `public/` folder hehe)
 
 ### حل اسبوع ٥ - يوم ٢
 
-#### Lab 1:Practice count and for_each Meta-Arguments in Terraform
+#### Lab 1: Practice count and for_each Meta-Arguments in Terraform
 
 ![Practice count and for_each Meta-Arguments in Terraform](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d2/w5d2-lab1.png)
 
-#### Lab 2:Building Reusable Components in Terraform
+#### Lab 2: Building Reusable Components in Terraform
 
 ![Building Reusable Components in Terraform](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d2/w5d2-lab2.png)
 
-#### Lab 3:Troubleshooting Terraform Scripts
+#### Lab 3: Troubleshooting Terraform Scripts
 
 ![Troubleshooting Terraform Scripts](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d2/w5d2-lab3.png)
 
-#### Lab 4:Terraform Workspaces
+#### Lab 4: Terraform Workspaces
 
 ![Terraform Workspaces](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d2/w5d2-lab4.png)
 
@@ -888,3 +888,34 @@ App deployed (and missing the `public/` folder hehe)
 Workflow used: [Here](https://github.com/aliAljaffer/terraform-3t-app-with-cicd/blob/main/.github/workflows/3t-deploy.yml)
 
 ![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d3/w5d3-lab-extra.png)
+
+### حل اسبوع ٥ - يوم ٤
+
+ملاحظة: في هذا اليومين راح نحتاج اكثر من VM, زبطت لكم سكربت يساعد على انشاءها بسرعة
+
+[w5-vm-provisioner.tf](./extra-files/w5-vm-provisioner.tf)
+
+كل اللي عليكم تسوونه تعدلوا في المتغيرات في بلوك اللوكالز في البداية
+![alt text](./extra-files/w5-locals.png)
+
+#### Lab 1:
+
+![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d4/w5d4-lab1.png)
+
+#### Lab 2:
+
+![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d4/w5d4-lab2.png)
+
+#### Lab 3:
+
+![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d4/w5d4-lab3.png)
+
+#### Lab 4:
+
+![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d4/w5d4-lab4.png)
+
+#### Lab 5:
+
+![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d4/w5d4-lab5.png)
+
+### حل اسبوع ٥ - يوم ٥
