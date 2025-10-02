@@ -1,4 +1,10 @@
 locals {
+  # BEFORE YOU RUNNNN!!!!!!!!!!!!
+  # Make sure you have a key-pair created in ~/.ssh/id_rsa
+  # If not, run this command:
+  # ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa
+  # No need for a pass phrase.
+  # Now you can run it
   number_of_vms   = 2
   name            = "ali"
   vm_name         = "VM"

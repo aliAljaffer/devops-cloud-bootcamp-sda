@@ -898,6 +898,12 @@ Workflow used: [Here](https://github.com/aliAljaffer/terraform-3t-app-with-cicd/
 كل اللي عليكم تسوونه تعدلوا في المتغيرات في بلوك اللوكالز في البداية
 ![alt text](./extra-files/w5-locals.png)
 
+ضروري يكون عندك مفتاح rsa في الهوم دايركتري, اذا لا فشغل هالكوماند
+
+```bash
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa
+```
+
 #### Lab 1:
 
 ![](https://ali-aljaffer-devops-labs.s3.me-south-1.amazonaws.com/w5d4/w5d4-lab1.png)

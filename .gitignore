@@ -1,3 +1,4 @@
 *.py
 project1
 networks.*
+.DS_Store
