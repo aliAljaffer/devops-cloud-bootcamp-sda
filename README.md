@@ -29,15 +29,8 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
   - [اسبوع ٣ - يوم ١](#اسبوع-٣---يوم-١)
   - [اسبوع ٣ - يوم ٥](#اسبوع-٣---يوم-٥)
   - [اسبوع ٤ - يوم ٢](#اسبوع-٤---يوم-٢)
-  <!-- - [اسبوع ٤ - يوم ٣](#اسبوع-٤---يوم-٣)
-  - [اسبوع ٤ - يوم ٤](#اسبوع-٤---يوم-٤)
-  - [اسبوع ٤ - يوم ٥](#اسبوع-٤---يوم-٥)
-  - [اسبوع ٥ - يوم ١](#اسبوع-٥---يوم-١)
-  - [اسبوع ٥ - يوم ٢](#اسبوع-٥---يوم-٢)
-  - [اسبوع ٥ - يوم ٣](#اسبوع-٥---يوم-٣)
-  - [اسبوع ٥ - يوم ٤](#اسبوع-٥---يوم-٤)
   - [اسبوع ٥ - يوم ٥](#اسبوع-٥---يوم-٥)
-  - [اسبوع ٦ - يوم ١](#اسبوع-٦---يوم-١)
+  <!--  - [اسبوع ٦ - يوم ١](#اسبوع-٦---يوم-١)
   - [اسبوع ٦ - يوم ٢](#اسبوع-٦---يوم-٢)
   - [اسبوع ٦ - يوم ٣](#اسبوع-٦---يوم-٣)
   - [اسبوع ٦ - يوم ٤](#اسبوع-٦---يوم-٤)
@@ -180,6 +173,16 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
 **الموضوع**: GitHub Actions basics, writing workflows from scratch, understanding a workflow file, using actions with input (using `with:`)
 
 **الشرح**: [devops week4 day2 GitHub Actions and their (fun) uses](https://youtu.be/-vtJCqWwZ3o)
+
+### اسبوع ٥ - يوم ٥
+
+**الموضوع**: PART 1: Reporting errors, reading them, deploying NSG, Subnet, Vnet, and DB
+
+**الشرح**: [devops week5 day5 PART 1: EXTRA assignment - building infrastructure with Terraform using modules](https://www.youtube.com/watch?v=RI0ltdZAduY)
+
+**الموضوع**: PART 2: Deploying App Services for Frontend and Backend, using the better [Dockerfile](./extra-files/Dockerfile) ;-)
+
+**الشرح**: [devops week5 day5 PART 2: EXTRA assignment - building infrastructure with Terraform using modules](https://www.youtube.com/watch?v=lrWJ69lk2Rg)
 
 ## حلول اللابات
 
