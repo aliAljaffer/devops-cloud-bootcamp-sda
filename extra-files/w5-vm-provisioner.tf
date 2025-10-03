@@ -48,7 +48,7 @@ provider "azurerm" {
 # Resource Group
 # ----------------------------
 resource "azurerm_resource_group" "rg" {
-  name     = "${replace(" ", "-", lower(local.name))}-rg"
+  name     = "${replace(lower(local.name), " ", "-")}-rg"
   location = local.location
 }
 
@@ -56,14 +56,14 @@ resource "azurerm_resource_group" "rg" {
 # Virtual Network + Subnet
 # ----------------------------
 resource "azurerm_virtual_network" "vnet" {
-  name                = "${replace(" ", "-", lower(local.name))}-vnet"
+  name                = "${replace(lower(local.name), " ", "-")}-vnet"
   address_space       = ["10.0.0.0/16"]
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
 }
 
 resource "azurerm_subnet" "subnet" {
-  name                 = "${replace(" ", "-", lower(local.name))}-subnet"
+  name                 = "${replace(lower(local.name), " ", "-")}-subnet"
   resource_group_name  = azurerm_resource_group.rg.name
   virtual_network_name = azurerm_virtual_network.vnet.name
   address_prefixes     = ["10.0.1.0/24"]
@@ -102,7 +102,7 @@ resource "azurerm_network_interface" "nics" {
 # Network Security Group
 # ----------------------------
 resource "azurerm_network_security_group" "nsg" {
-  name                = "${replace(" ", "-", lower(local.name))}-nsg"
+  name                = "${replace(lower(local.name), " ", "-")}-nsg"
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
 
