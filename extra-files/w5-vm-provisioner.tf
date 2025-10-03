@@ -138,14 +138,14 @@ resource "azurerm_linux_virtual_machine" "vms" {
   resource_group_name = azurerm_resource_group.rg.name
   location            = azurerm_resource_group.rg.location
   size                = "Standard_B1s"
-  admin_username      = local.name
+  admin_username      = replace(lower(local.name), " ", "")
 
   network_interface_ids = [
     azurerm_network_interface.nics[count.index].id
   ]
 
   admin_ssh_key {
-    username   = local.name
+    username   = replace(lower(local.name), " ", "")
     public_key = file("~/.ssh/id_rsa.pub")
   }
 
