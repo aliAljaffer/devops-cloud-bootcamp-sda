@@ -184,6 +184,14 @@ Resources for DevOps &amp; Cloud Bootcamp delivered by IronHack
 
 **الشرح**: [devops week5 day5 PART 2: EXTRA assignment - building infrastructure with Terraform using modules](https://www.youtube.com/watch?v=lrWJ69lk2Rg)
 
+**الموضوع**: PART 3: We will write the workflow part and end up automating the building and pushing of containers for frontend and backend using commit hashes as history
+
+**الشرح**: [devops week5 day5 PART 3: EXTRA assignment - building infrastructure with Terraform using modules](https://www.youtube.com/watch?v=RI0ltdZAduY)
+
+**الموضوع**: PART 4: We will use remote state, fix errors, cause errors, and get frustrated but end up winning!
+
+**الشرح**: [devops week5 day5 PART 4: EXTRA assignment - building infrastructure with Terraform using modules](https://www.youtube.com/watch?v=BuIeE5QwKoY)
+
 ## حلول اللابات
 
 ### حل اسبوع ١ - يوم ١
